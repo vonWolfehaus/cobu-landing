@@ -61,17 +61,21 @@ title: learn
 </section>
 <section class="section--footer mdl-color--white mdl-grid">
 	<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-		<div class="section__circle-container__circle mdl-color--accent section__circle--big"><img src="images/path.png"></div>
+		<div class="section__circle-container__circle mdl-color--accent section__circle--big">
+			<img src="images/path.png">
+		</div>
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 		<h5>How do I find a baugruppe?</h5>
 		That's what this site is for! The next phase of this site will have a directory of groups that are forming and looking for members.
 	</div>
 	<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-		<div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+		<div class="section__circle-container__circle mdl-color--accent section__circle--big">
+			<img src="images/grow.png">
+		</div>
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-		<h5>Lorem ipsum dolor sit amet</h5>
-		Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+		<h5>Interested in contributing?</h5>
+		We're always looking for people with experience building baugruppen. If you would like to share advice, recommendations, or ideas on how to make this site better, please <a href="mailto:von@wolfeha.us">send us a note!</a>
 	</div>
 </section>
