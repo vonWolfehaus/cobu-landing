@@ -71,6 +71,11 @@ gulp.task('serve', ['default'], function() {
 	watch();
 });
 
+gulp.task('deploy', function() {
+	return gulp.src(dist+'/**/*')
+		.pipe($.ghPages());
+});
+
 
 /*----------------------------------------------------------------------
 	HELPERS
