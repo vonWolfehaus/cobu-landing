@@ -10,21 +10,18 @@ var swig = require('swig');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 
+var site = require('./site.json');
 var dist = 'dist';
 
 gulp.task('default', ['clean'], function(cb) {
 	runSequence(
-		['styles', 'pages'],
+		['styles', 'assets', 'pages'],
 		cb);
 });
 
 
-/*----------------------------------------------------------------------
-	Development tasks
-*/
-
 gulp.task('styles', function() {
-	return gulp.src([components+'/**/*.styl'])
+	return gulp.src(['assets/styles/**/*.styl'])
 		.pipe($.plumber({errorHandler: handleErrors}))
 		.pipe($.sourcemaps.init())
 		.pipe($.stylus({
@@ -34,33 +31,40 @@ gulp.task('styles', function() {
 		.pipe($.csso())
 		.pipe($.concat('styles.css'))
 		.pipe($.sourcemaps.write('.'))
-		.pipe(gulp.dest(dist))
+		.pipe(gulp.dest(dist+'/css'))
 });
 
 gulp.task('clean', del.bind(null, [dist]));
 
 
 /*----------------------------------------------------------------------
-	Landing page tasks
+
 */
+
+gulp.task('assets', function () {
+	return gulp.src('assets/**/*')
+		.pipe(gulp.dest(dist));
+});
 
 /**
  * Generates an HTML file for each md file in pages directory.
  */
 gulp.task('pages', function () {
-	return gulp.src('pages/*.md')
+	return gulp.src('content/*.md')
+		.pipe($.plumber({errorHandler: handleErrors}))
 		.pipe($.frontMatter({property: 'page', remove: true}))
 		.pipe($.marked())
 		.pipe(applyTemplate())
+		.pipe($.htmlmin({collapseWhitespace: true}))
 		.pipe($.rename({extname: '.html'}))
 		.pipe(gulp.dest(dist));
 });
 
-gulp.task('serve', function() {
+gulp.task('serve', ['default'], function() {
 	browserSync.init({
 		notify: false,
 		server: {
-			baseDir: ['.']
+			baseDir: [dist]
 		}
 	});
 
@@ -73,12 +77,6 @@ gulp.task('serve', function() {
 */
 
 /**
- * Site metadata for use with templates.
- * @type {Object}
- */
-var site = {};
-
-/**
  * Generates an HTML file based on a template and file metadata.
  */
 function applyTemplate() {
@@ -89,7 +87,7 @@ function applyTemplate() {
 			content: file.contents.toString()
 		};
 
-		var templateFile = path.join(__dirname, 'templates', file.page.layout + '.html');
+		var templateFile = path.join(__dirname, 'templates', file.page.template + '.html');
 		var tpl = swig.compileFile(templateFile, {cache: false});
 		file.contents = new Buffer(tpl(data), 'utf8');
 		this.push(file);
@@ -101,10 +99,9 @@ function applyTemplate() {
  * Defines the list of resources to watch for changes.
  */
 function watch() {
-	gulp.watch(['src/**/*.{styl,css}'], ['styles', 'styles-grid', 'styletemplates', reload]);
-	gulp.watch(['src/**/*.html'], ['pages', reload]);
-	gulp.watch(['src/**/*.{svg,png,jpg}'], ['images', reload]);
-	gulp.watch(['templates/**/*'], ['templates', reload]);
+	gulp.watch(['assets/styles/**/*.styl'], ['styles', reload]);
+	gulp.watch(['templates/*.html', 'content/**/*.md'], ['pages', reload]);
+	gulp.watch(['assets/**/*.{png,jpg,svg}'], ['assets', reload]);
 }
 
 /**
