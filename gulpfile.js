@@ -11,7 +11,7 @@ var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 
 var site = require('./site.json');
-var dist = 'dist';
+var dist = './dist';
 
 gulp.task('default', ['clean'], function(cb) {
 	runSequence(
@@ -19,7 +19,11 @@ gulp.task('default', ['clean'], function(cb) {
 		cb);
 });
 
+gulp.task('clean', del.bind(null, [dist]));
 
+/*
+	Compiles and builds styles
+ */
 gulp.task('styles', function() {
 	return gulp.src(['assets/styles/**/*.styl'])
 		.pipe($.plumber({errorHandler: handleErrors}))
@@ -34,20 +38,16 @@ gulp.task('styles', function() {
 		.pipe(gulp.dest(dist+'/css'))
 });
 
-gulp.task('clean', del.bind(null, [dist]));
-
-
-/*----------------------------------------------------------------------
-
-*/
-
+/*
+	Copies images, keeping folder structure
+ */
 gulp.task('assets', function () {
-	return gulp.src('assets/**/*')
+	return gulp.src('assets/**/*.{png,jpg,svg}')
 		.pipe(gulp.dest(dist));
 });
 
-/**
- * Generates an HTML file for each md file in pages directory.
+/*
+	Generates an HTML file for each md file in pages directory.
  */
 gulp.task('pages', function () {
 	return gulp.src('content/*.md')
@@ -60,6 +60,9 @@ gulp.task('pages', function () {
 		.pipe(gulp.dest(dist));
 });
 
+/*
+	Fires up a server for development
+ */
 gulp.task('serve', ['default'], function() {
 	browserSync.init({
 		notify: false,
@@ -71,8 +74,8 @@ gulp.task('serve', ['default'], function() {
 	watch();
 });
 
-gulp.task('deploy', function() {
-	return gulp.src(dist+'/**/*')
+gulp.task('deploy', ['default'], function() {
+	return gulp.src(dist+'/**/*.*')
 		.pipe($.ghPages());
 });
 
