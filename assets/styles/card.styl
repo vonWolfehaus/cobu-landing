@@ -1,0 +1,55 @@
+.mdl-card {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.mdl-card .mdl-card__supporting-text {
+	margin: 40px;
+	flex-grow: 1;
+	padding: 0;
+	color: inherit;
+	width: calc(100% - 80px);
+}
+
+.mdl-card .mdl-full-text {
+	margin: 40px;
+	flex-grow: 1;
+	padding: 0;
+	color: inherit;
+}
+
+.mdl-card.mdl-card .mdl-card__supporting-text h4 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.mdl-card .mdl-card__supporting-text > h3:first-child {
+	margin-bottom: 24px;
+}
+
+.mdl-card__actions {
+	margin: 0;
+	padding: 4px 40px;
+	color: inherit;
+}
+
+a,
+.mdl-card__actions a {
+	color: rgb(33,150,243);
+	margin: 0;
+
+	&:hover {
+		color: inherit;
+	}
+}
+
+.mdl-card__actions a:hover,
+.mdl-card__actions a:active {
+	color: inherit;
+	background-color: transparent;
+}
+
+.mdl-card__supporting-text + .mdl-card__actions {
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+}

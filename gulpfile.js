@@ -63,7 +63,7 @@ gulp.task('pages', function () {
 /*
 	Fires up a server for development
  */
-gulp.task('serve', ['default'], function() {
+gulp.task('dev', ['default'], function() {
 	browserSync.init({
 		notify: false,
 		server: {
