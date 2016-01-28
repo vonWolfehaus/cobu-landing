@@ -78,14 +78,21 @@ section.section--footer .section__circle--big {
 	width: 100px;
 	height: 100px;
 	border-radius: 50px;
-	margin: 8px 32px;
+	margin: 8px auto;
 }
 
-.is-small-screen section.section--footer .section__circle--big {
-	width: 50px;
-	height: 50px;
-	border-radius: 25px;
-	margin: 8px 16px;
+.is-small-screen {
+	section.section--footer .section__circle--big {
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		margin: 8px auto;
+	}
+
+	section .section__circle--big > img {
+		width: 60px;
+		height: auto;
+	}
 }
 
 section.section--footer {
