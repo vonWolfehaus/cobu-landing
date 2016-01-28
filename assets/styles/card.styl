@@ -5,11 +5,15 @@
 }
 
 .mdl-card .mdl-card__supporting-text {
-	margin: 40px;
+	margin: 30px;
 	flex-grow: 1;
 	padding: 0;
 	color: inherit;
 	width: calc(100% - 80px);
+
+	&:not(:first-child) {
+		margin-top: 0;
+	}
 }
 
 .mdl-card .mdl-full-text {
