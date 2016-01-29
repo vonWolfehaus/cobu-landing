@@ -109,7 +109,7 @@ function applyTemplate() {
 function watch() {
 	gulp.watch(['assets/styles/**/*.styl'], ['styles', reload]);
 	gulp.watch(['templates/*.html', 'content/**/*.md'], ['pages', reload]);
-	gulp.watch(['assets/**/*.{png,jpg,svg}'], ['assets', reload]);
+	gulp.watch(['assets/**/*.{png,jpg,svg,ico}'], ['assets', reload]);
 }
 
 /**
