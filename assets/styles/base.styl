@@ -4,7 +4,13 @@ html, body {
 	padding: 0;
 }
 
+p {
+	line-height: 20px;
 
+	&.quote {
+		font-style: italic;
+	}
+}
 
 .mdl-layout__tab-panel:not(#overview) {
 	background-color: white;
@@ -12,4 +18,8 @@ html, body {
 
 .mdl-menu__container {
 	z-index: 99;
+}
+
+.pull-right {
+	float: right;
 }
