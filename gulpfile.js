@@ -55,9 +55,18 @@ gulp.task('pages', function () {
 		.pipe($.frontMatter({property: 'page', remove: true}))
 		.pipe($.marked())
 		.pipe(applyTemplate())
-		.pipe($.htmlmin({collapseWhitespace: true}))
-		.pipe($.rename({extname: '.html'}))
-		.pipe(gulp.dest(dist));
+		.pipe($.htmlmin({
+			removeComments: true,
+			collapseWhitespace: true
+		}))
+		.pipe($.foreach(function(stream, file) {
+			// place each page into its own directory as the index file for more friendly URLs
+			var name = path.basename(file.path, '.html');
+			return stream
+				.pipe($.rename('index.html'))
+				.pipe($.if((name === 'index'), gulp.dest(dist)))
+				.pipe($.if((name !== 'index'), gulp.dest(dist+'/'+name)));
+		}));
 });
 
 /*

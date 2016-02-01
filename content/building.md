@@ -2,57 +2,43 @@
 template: page
 title: building
 ---
-
+https://www.flickr.com/photos/adeupa/2402427115
 <section class="section--center mdl-grid mdl-grid--no-spacing">
 	<div class="mdl-cell mdl-cell--12-col">
-		<h4>Features</h4>
-		Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+		<h2>Buildings and spaces</h2>
+		<p><i>Baugruppen</i> have the option of pushing as far as their budget will allow in terms of materials and structure. The group may feel that certain forms of construction are advantageous in terms of embodied energy or carbon (eg  versus concrete) – and it's entirely possible given the right approach, those methods may even cost less as well. For the <i>baugruppen</i>, being ecologically-minded may not be an afterthought, they may even be willing to take on the risk of an all-wood building whereas a risk-averse developer might avoid that route. They can debate the merits of EPS, XPS, and cork in financial terms, but also through these other lenses.</p>
+
 		<ul class="toc">
-			<h4>Contents</h4>
-			<a href="#lorem1">Lorem ipsum</a>
-			<a href="#lorem2">Lorem ipsum</a>
-			<a href="#lorem3">Lorem ipsum</a>
-			<a href="#lorem4">Lorem ipsum</a>
-			<a href="#lorem5">Lorem ipsum</a>
+			<a href="#Passivhaus">Passivhaus</a>
+			<a href="#Energy">Energy resilience</a>
+			<a href="#Scale">Scale</a>
+			<a href="#Food">Food resilience</a>
+			<a href="#Public">Public benefit</a>
 		</ul>
 
-		<h5 id="lorem1">Lorem ipsum dolor sit amet</h5>
-		Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
+		<h4 id="Passivhaus">Passivhaus</h4>
+		<p>A large percentage of baugruppen are built to the Passivhaus standard.</p>
+		<p><a href="https://www.youtube.com/watch?v=rLqiwBL28v4">cross-laminated timber</a></p>
+		<p>rammed earth, stone</p>
+
 		<ul>
-			<li>Nisi qui nisi duis commodo duis reprehenderit consequat velit aliquip.</li>
-			<li>Dolor consectetur incididunt in ipsum laborum non et irure pariatur excepteur anim occaecat officia sint.</li>
-			<li>Lorem labore proident officia excepteur do.</li>
+			<li>clean air</li>
+			<li>insulation</li>
+			<li>full light</li>
 		</ul>
 
-		<p>
-			Sit qui est voluptate proident minim cillum in aliquip cupidatat labore pariatur id tempor id. Proident occaecat occaecat sint mollit tempor duis dolor cillum anim. Dolore sunt ea mollit fugiat in aliqua consequat nostrud aliqua ut irure in dolore. Proident aliqua culpa sint sint exercitation. Non proident occaecat reprehenderit veniam et proident dolor id culpa ea tempor do dolor. Nulla adipisicing qui fugiat id dolor. Nostrud magna voluptate irure veniam veniam labore ipsum deserunt adipisicing laboris amet eu irure. Sunt dolore nisi velit sit id. Nostrud voluptate labore proident cupidatat enim amet Lorem officia magna excepteur occaecat eu qui. Exercitation culpa deserunt non et tempor et non.
-		</p>
-		<p>
-			Do dolor eiusmod eu mollit dolore nostrud deserunt cillum irure esse sint irure fugiat exercitation. Magna sit voluptate id in tempor elit veniam enim cupidatat ea labore elit. Aliqua pariatur eu nulla labore magna dolore mollit occaecat sint commodo culpa. Eu non minim duis pariatur Lorem quis exercitation. Sunt qui ex incididunt sit anim incididunt sit elit ad officia id.
-		</p>
-		<p id="lorem2">
-			Tempor voluptate ex consequat fugiat aliqua. Do sit et reprehenderit culpa deserunt culpa. Excepteur quis minim mollit irure nulla excepteur enim quis in laborum. Aliqua elit voluptate ad deserunt nulla reprehenderit adipisicing sint. Est in eiusmod exercitation esse commodo. Ea reprehenderit exercitation veniam adipisicing minim nostrud. Veniam dolore ex ea occaecat non enim minim id ut aliqua adipisicing ad. Occaecat excepteur aliqua tempor cupidatat aute dolore deserunt ipsum qui incididunt aliqua occaecat sit quis. Culpa sint aliqua aliqua reprehenderit veniam irure fugiat ea ad.
-		</p>
-		<p>
-			Eu minim fugiat laborum irure veniam Lorem aliqua enim. Aliqua veniam incididunt consequat irure consequat tempor do nisi deserunt. Elit dolore ad quis consectetur sint laborum anim magna do nostrud amet. Ea nulla sit consequat quis qui irure dolor. Sint deserunt excepteur consectetur magna irure. Dolor tempor exercitation dolore pariatur incididunt ut laboris fugiat ipsum sunt veniam aute sunt labore. Non dolore sit nostrud eu ad excepteur cillum eu ex Lorem duis.
-		</p>
-		<p>
-			Id occaecat velit non ipsum occaecat aliqua quis ut. Eiusmod est magna non esse est ex incididunt aute ullamco. Cillum excepteur sint ipsum qui quis velit incididunt amet. Qui deserunt anim enim laborum cillum reprehenderit duis mollit amet ad officia enim. Minim sint et quis aliqua aliqua do minim officia dolor deserunt ipsum laboris. Nulla nisi voluptate consectetur est voluptate et amet. Occaecat ut quis adipisicing ad enim. Magna est magna sit duis proident veniam reprehenderit fugiat reprehenderit enim velit ex. Ullamco laboris culpa irure aliquip ad Lorem consequat veniam ad ipsum eu. Ipsum culpa dolore sunt officia laborum quis.
-		</p>
+		<h4 id="Energy">Energy</h4>
+		<p>many exceed it by achieving <a href="http://www.plusenergiehaus.de/index.php?p=home&pid=8&L=1&host=1">PlusEnergy</a> certification</p>
 
-		<h5 id="lorem3">Lorem ipsum dolor sit amet</h5>
+		<h4 id="Scale">Scale</h4>
+		<p>Large, multi-building complexes such as the wonderful <a href="http://www.newtonprojekt.de/en">Newton Project property</a></p>
 
-		<p id="lorem4">
-			Eiusmod nulla aliquip ipsum reprehenderit nostrud non excepteur mollit amet esse est est dolor. Dolore quis pariatur sit consectetur veniam esse ullamco duis Lorem qui enim ut veniam. Officia deserunt minim duis laborum dolor in velit pariatur commodo ullamco eu. Aute adipisicing ad duis labore laboris do mollit dolor cillum sunt aliqua ullamco. Esse tempor quis cillum consequat reprehenderit. Adipisicing proident anim eu sint elit aliqua anim dolore cupidatat fugiat aliquip qui.
-		</p>
-		<p id="lorem5">
-			Nisi eiusmod esse cupidatat excepteur exercitation ipsum reprehenderit nostrud deserunt aliqua ullamco. Anim est irure commodo eiusmod pariatur officia. Est dolor ipsum excepteur magna aliqua ad veniam irure qui occaecat eiusmod aute fugiat commodo. Quis mollit incididunt amet sit minim velit eu fugiat voluptate excepteur. Sit minim id pariatur ex cupidatat cupidatat nostrud nostrud ipsum.
-		</p>
-		<p>
-			Enim ea officia excepteur ad veniam id reprehenderit eiusmod esse mollit consequat. Esse non aute ullamco Lorem aliqua qui dolore irure eiusmod aute aliqua proident labore aliqua. Ipsum voluptate voluptate exercitation laborum deserunt nulla elit aliquip et minim ex veniam. Duis cupidatat aute sunt officia mollit dolor ad elit ad aute labore nostrud duis pariatur. In est sint voluptate consectetur velit ea non labore. Ut duis ea aliqua consequat nulla laboris fugiat aute id culpa proident. Minim eiusmod laboris enim Lorem nisi excepteur mollit voluptate enim labore reprehenderit officia mollit.
-		</p>
-		<p>
-			Cupidatat labore nisi ut sunt voluptate quis sunt qui ad Lorem esse nisi. Ex esse velit ullamco incididunt occaecat dolore veniam tempor minim adipisicing amet. Consequat in exercitation est elit anim consequat cillum sint labore cillum. Aliquip mollit laboris ad labore anim.
-		</p>
+		<h4 id="Food">Food</h4>
+		<p>Rooftop terrace with community garden (which they can sell as well). Can have hydroponics, or permaculture system.</p>
+
+		<h4 id="Public">Public benefit</h4>
+		<p>Options for first floor: common areas, tool libraries, machine shops, retail space.
+		Provides income to community through rent or product/services if some members are makers</p>
+
 	</div>
 </section>
