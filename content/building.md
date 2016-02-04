@@ -18,7 +18,7 @@ https://www.flickr.com/photos/adeupa/2402427115
 
 		<h4 id="Passivhaus">Passivhaus</h4>
 		<p>A large percentage of baugruppen are built to the Passivhaus standard.</p>
-		<p><a href="https://www.youtube.com/watch?v=rLqiwBL28v4">cross-laminated timber</a></p>
+		<p>[cross-laminated timber](https://www.youtube.com/watch?v=rLqiwBL28v4)</a></p>
 		<p>rammed earth, stone</p>
 
 		<ul>
