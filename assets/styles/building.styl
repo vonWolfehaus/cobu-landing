@@ -1,0 +1,41 @@
+.building-page {
+	section:first-child {
+		margin-top: 16px;
+	}
+
+	.card-image.mdl-card {
+		background-position: bottom;
+		background-size: cover;
+	}
+
+	.card-image__float-right.mdl-card {
+		width: 300px;
+		float: right;
+		margin-left: 16px;
+		margin-bottom: 16px;
+	}
+
+	.card-image > .mdl-card__actions {
+		height: 38px;
+		padding: 10px;
+		font-size: 10px;
+		text-align: right;
+
+		& > a {
+			color: #fff;
+		}
+	}
+
+	.card-image__float-right > .mdl-card__actions {
+		background: rgba(0, 0, 0, 0.3);
+	}
+}
+
+@media (max-width: 479px) { // phone
+	.building-page .card-image__float-right.mdl-card {
+		float: none;
+		margin-left: 0;
+		margin-bottom: 18px;
+		width: 100%;
+	}
+}

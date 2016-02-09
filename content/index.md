@@ -9,11 +9,11 @@ title: learn
 	</header>
 	<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 		<div class="mdl-card__supporting-text">
-			<h4>What's a <i>baugruppe</i>?</h4>
-			<p><i>Baugruppe</i> – German for "building group" – is collectively-funded community-based living, where a like-minded group comes together to design, build, and inhabit a condo-like building in a city environment. <b>It's an urban collective, a custom community created by you, for you!</b></p>
+			<h4>What's a _baugruppe_?</h4>
+			<p>_Baugruppe_ – German for "building group" – is collectively-funded community-based living, where a like-minded group comes together to design, build, and inhabit a condo-like building in a city environment. **It's an urban collective, a custom community created by you, for you!**</p>
 		</div>
 		<div class="mdl-card__actions">
-			<a href="process.html" class="mdl-button">Learn about the process</a>
+			<a href="process" class="mdl-button">Learn about the process</a>
 		</div>
 	</div>
 </section>
@@ -40,11 +40,11 @@ title: learn
 			</div>
 			<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 				<h5>...live sustainably and be self-reliant?</h5>
-				<p>Most <i>baugruppen</i> are built to <a href="http://en.wikipedia.org/wiki/Passivhaus">passivhaus</a> standards, with tons of insulation, natural light, and fresh air circulation. They can have solar panels, batteries, and smart appliances, all networked together by a smart whole-home energy management system. It could create more energy than it consumes and have the ability to island itself from the grid in the case of emergency.</p>
+				<p>Most _baugruppen_ are built to <a href="http://en.wikipedia.org/wiki/Passivhaus">passivhaus</a> standards, with tons of insulation, natural light, and fresh air circulation. They can have solar panels, batteries, and smart appliances, all networked together by a smart whole-home energy management system. It could create more energy than it consumes and have the ability to island itself from the grid in the case of emergency.</p>
 			</div>
 		</div>
 		<div class="mdl-card__actions">
-			<a href="building.html" class="mdl-button">Learn about the buildings</a>
+			<a href="building" class="mdl-button">Learn about the buildings</a>
 		</div>
 	</div>
 </section>
@@ -53,10 +53,10 @@ title: learn
 		<div class="mdl-card__supporting-text">
 			<h4>What are the costs involved?</h4>
 			<img src="images/currency_silver.png" class="pull-right" style="margin-left: 30px;">
-			<p style="font-size: 12px; margin-bottom: 15px;"><i>This following is a lightly edited excerpt from the excellent <a href="https://www.theurbanist.org/category/baugruppen/">Urbanist series</a> on baugruppen – visit the link below</i></p>
-			<p>There are a couple of ways a <i>baugruppe</i> reduces costs over traditional models. First and foremost, bypassing a developer pulls out the profit they would take on a project, which is not insubstantial. Second, there is little to no marketing of the project – which means no staging/pursuit. Realtors are also generally not in the equation.<p>
-			<p>The down payment for a <i>baugruppe</i> can be in the realm of 30%, so upfront costs are higher. In the long run, the total costs are lower, and the monthly payment ends up being pretty affordable as well. The savings rates in Germany, France and Switzerland are roughly triple what they are in the US, so this also changes the equation.</p>
-			<p>Ultimately, the collective economic might of <i>baugruppen</i> offers owner-builders an opportunity for significant savings over traditional developer-driven models, resulting in about 15% savings on average. For less cost than typical development, owners get a higher-quality product designed to meet their needs; and in Germany, this product is usually more energy efficient, thus ensuring operational cost savings as well.</p>
+			<p style="font-size: 12px; margin-bottom: 15px;">_This following is a lightly edited excerpt from the excellent <a href="https://www.theurbanist.org/category/baugruppen/">Urbanist series</a> on baugruppen – visit the link below_</p>
+			<p>There are a couple of ways a _baugruppe_ reduces costs over traditional models. First and foremost, bypassing a developer pulls out the profit they would take on a project, which is not insubstantial. Second, there is little to no marketing of the project – which means no staging/pursuit. Realtors are also generally not in the equation.<p>
+			<p>The down payment for a _baugruppe_ can be in the realm of 30%, so upfront costs are higher. In the long run, the total costs are lower, and the monthly payment ends up being pretty affordable as well. The savings rates in Germany, France and Switzerland are roughly triple what they are in the US, so this also changes the equation.</p>
+			<p>Ultimately, the collective economic might of _baugruppen_ offers owner-builders an opportunity for significant savings over traditional developer-driven models, resulting in about 15% savings on average. For less cost than typical development, owners get a higher-quality product designed to meet their needs; and in Germany, this product is usually more energy efficient, thus ensuring operational cost savings as well.</p>
 		</div>
 		<div class="mdl-card__actions">
 			<a href="https://www.theurbanist.org/2014/05/20/baugruppen-to-form-a-more-affordable-urbanism/" class="mdl-button">Read more about affordable urbanism <span class="material-icons" style="font-size: 16px;">call_made</span></a>
@@ -70,7 +70,7 @@ title: learn
 		</div>
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-		<h5>How do I find a <i>baugruppe</i>?</h5>
+		<h5>How do I find a _baugruppe_?</h5>
 		That's what this site is for! The next phase of this site will have a directory of groups that are forming and looking for members.
 	</div>
 	<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
@@ -80,6 +80,6 @@ title: learn
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 		<h5>Interested in contributing?</h5>
-		We're always looking for people with experience building <i>baugruppen</i>. If you would like to share advice, recommendations, or just ideas on how to make this site better, please <a href="mailto:contact@urbancommunity.net">send us a note!</a>
+		We're always looking for people with experience building _baugruppen_. If you would like to share advice, recommendations, or just ideas on how to make this site better, please <a href="mailto:contact@urbancommunity.net">send us a note!</a>
 	</div>
 </section>
