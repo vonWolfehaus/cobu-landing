@@ -22,7 +22,7 @@ title: building
 			<!-- <a href="#Connected">Staying connected</a> -->
 		</ul>
 		<h5 id="Passivhaus">Passivhaus</h5>
-		<p>Many _baugruppen_ are built to the [Passivhaus](http://passiv.de/en/) standard. The requirements enforce the overall energy efficiency of a structure, which results in proper insulation, ventilation, and energy consumption. The air quality [benefits immensely](http://www.passivhaus.org.uk/standard.jsp?id=122) from these thermal performance requirements while also reducing the cost of electricity bills significantly.</p>
+		<p>Many _baugruppen_ are built to the [Passivhaus](http://passiv.de/en/) standard. The requirements enforce the overall energy efficiency of a structure, which results in proper [insulation](http://elrondburrell.com/blog/passivhaus-hermetically-sealed/), ventilation, and energy consumption. The air quality [benefits immensely](http://www.passivhaus.org.uk/standard.jsp?id=122) from these thermal performance requirements while also reducing the cost of electricity bills significantly.</p>
 		<h5 id="Energy">Renewable energy</h5>
 		<p>The benefits of utilizing renewable energy are obvious, but the upfront cost is still somewhat prohibitive. However, with a _baugruppe_ that barrier is lowered due to the collective contributions of its members, making this option extremely attractive.</p>
 		<p>Living in a building that generates its own power provides a fantastic amount of security, as disastrous events become manageable while also becoming an opportunity to give back to the city in times of need. It's also extremely helpful during nominal operations, since local utility systems exhibit a disturbing level of fragility with blackouts still occurring on a semi-regular basis throughout the world.</p>
