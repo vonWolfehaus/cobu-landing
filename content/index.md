@@ -10,7 +10,7 @@ title: learn
 	<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 		<div class="mdl-card__supporting-text">
 			<h4>What's a _baugruppe_?</h4>
-			<p>_Baugruppe_ – German for "building group" – is collectively-funded community-based living, where a like-minded group comes together to design, build, and inhabit a condo-like building in a city environment. **It's an urban collective, a custom community created by you, for you!**</p>
+			<p>_Baugruppe_ – German for "building group" – is collectively-funded, community-based living where a group of like-minded people come together to design, build, and inhabit a condo-like building in a city environment. **It's an urban collective, a custom community created by you, for you!**</p>
 		</div>
 		<div class="mdl-card__actions">
 			<a href="process" class="mdl-button">Learn about the process</a>

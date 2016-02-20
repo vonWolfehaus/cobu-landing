@@ -17,7 +17,7 @@ title: process
 		<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--5-col-tablet mdl-cell--12-col-phone">
 			<div class="mdl-card__supporting-text">
 				<h4>The process of building a _baugruppe_</h4>
-				<p>For the most part, _baugruppen_ are multi-story, multi-family buildings (think condos) rather than detached or semi-detached housing. There is no requirement for community space or common facilities in _baugruppen_, though many incorporate them (commonly: gardens, community rooms, roof terraces). However, like co-housing, _baugruppen_ incorporate a participatory planning process. The largest difference is probably that _baugruppen_ are <b>generally funded without developers</b> (self-financed), whereas co-housing communities can be self-financed or developer-financed projects.</p>
+				<p>For the most part, _baugruppen_ are multi-story, multi-family buildings (think condos) rather than detached or semi-detached housing. There is no requirement for community space or common facilities, though many incorporate them (commonly: gardens, community rooms, roof terraces). _Baugruppen_ incorporate a participatory planning process, without developers (it's where most of the cost savings is made). While mostly popular in Germany, the UK also [has helpful guidance](http://customandselfbuildtoolkit.org.uk/) on the process.</p>
 			</div>
 		</div>
 	</div>
