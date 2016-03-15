@@ -10,10 +10,10 @@ title: learn
 	<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 		<div class="mdl-card__supporting-text">
 			<h4>What's a _baugruppe_?</h4>
-			<p>_Baugruppe_ – German for "building group" – is collectively-funded, community-based living where a group of like-minded people come together to design, build, and inhabit a condo-like building in a city environment. **It's an urban collective, a custom community created by you, for you!**</p>
+			<p>_Baugruppe_ – German for "building group" – is collectively-funded, community-based living where a group of like-minded people come together to design, build, and inhabit a condo-like building in a city environment. **It's a custom community created by and for you & your friends.**</p>
 		</div>
 		<div class="mdl-card__actions">
-			<a href="process" class="mdl-button">Learn about the process</a>
+			<a href="process" class="mdl-button">Learn about the creation process</a>
 		</div>
 	</div>
 </section>
@@ -33,14 +33,14 @@ title: learn
 			</div>
 			<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 				<h5>...experience a robust sense of community?</h5>
-				<p>The neighborhood can be structured in such a way as to encourage casual encounters with neighbors. There could be a large common area with a big kitchen, eating space, and lounge, where families could take turns making meals for the whole group.</p>
+				<p>The buildings can be structured in such a way as to encourage casual encounters with neighbors. There could be a large common area with a big kitchen, eating space, and lounge, where families could take turns making meals for the whole group.</p>
 			</div>
 			<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
 				<img src="images/icon-sustainable.png"/>
 			</div>
 			<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 				<h5>...live sustainably and be self-reliant?</h5>
-				<p>Most _baugruppen_ are built to <a href="http://en.wikipedia.org/wiki/Passivhaus">passivhaus</a> standards, with tons of insulation, natural light, and fresh air circulation. They can have solar panels, batteries, and smart appliances, all networked together by a smart whole-home energy management system. It could create more energy than it consumes and have the ability to island itself from the grid in the case of emergency.</p>
+				<p>Many _baugruppen_ are built to <a href="http://en.wikipedia.org/wiki/Passivhaus">passivhaus</a> standards, with tons of insulation, natural light, and fresh air circulation. They can have solar panels, batteries, and smart appliances, all networked together by a smart whole-home energy management system. It could create more energy than it consumes and have the ability to island itself from the grid in the case of emergency.</p>
 			</div>
 		</div>
 		<div class="mdl-card__actions">
