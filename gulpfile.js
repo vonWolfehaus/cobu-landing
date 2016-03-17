@@ -42,7 +42,7 @@ gulp.task('styles', function() {
 	Copies images, keeping folder structure
  */
 gulp.task('assets', function () {
-	return gulp.src('assets/**/*.{png,jpg,svg}')
+	return gulp.src('assets/**/*.{png,jpg,svg,ico}')
 		.pipe(gulp.dest(dist));
 });
 
