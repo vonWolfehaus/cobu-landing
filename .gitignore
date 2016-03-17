@@ -4,7 +4,6 @@ public
 gulp-cache
 .DS_Store
 .publish
-dist
 *.gz
 *.zip
 *.psd
