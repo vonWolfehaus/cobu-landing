@@ -10,7 +10,7 @@ title: learn
 	<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 		<div class="mdl-card__supporting-text">
 			<h4>What's a custom community?</h4>
-			<p>A custom community (known as _Baugruppe_, German for "building group") is collectively-funded, community-based living where a group of like-minded people come together to design, build, and inhabit a condo-like building within a city.</p>
+			<p>A custom community (better known as a [_baugruppe_](https://www.theurbanist.org/2014/05/08/ready-set-build-collectively/) – German for "building group") is collectively-funded, community-based living where a group of like-minded people come together to design, build, and inhabit a condo-like building within a city.</p>
 		</div>
 		<div class="mdl-card__actions">
 			<a href="process" class="mdl-button">Learn about the creation process</a>
@@ -80,6 +80,6 @@ title: learn
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 		<h5>Interested in contributing?</h5>
-		We're always looking for people with experience building _baugruppen_. If you would like to share advice, recommendations, or just ideas on how to make this site better, please <a href="mailto:contact@urbancommunity.net">send us a note!</a>
+		We're always looking for people with experience building _baugruppen_. If you would like to share advice, recommendations, or just ideas on how to make this site better, please <a href="mailto:info@customcommunities.net">send us a note!</a>
 	</div>
 </section>
