@@ -1,0 +1,33 @@
+<button id="feedback-form__open" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+	Send Feedback
+</button>
+
+<div id="js-feedback-form" class="dialog-box__cover mdl-layout__obfuscator">
+	<div class="dialog-box mdl-card mdl-shadow--2dp">
+		<div class="mdl-card__title">
+			<h2 class="mdl-card__title-text">Have something lovely to say?</h2>
+		</div>
+		<div class="mdl-card__supporting-text">
+			<form name="feedback">
+				<div class="mdl-textfield mdl-js-textfield">
+					<input class="mdl-textfield__input" type="email" id="feedback-email"></input>
+					<label class="mdl-textfield__label" for="feedback-email">Email</label>
+					<span class="mdl-textfield__error">Please provide a valid email address</span>
+				</div>
+				<div class="mdl-textfield mdl-js-textfield">
+					<textarea class="mdl-textfield__input" type="text" rows= "4" id="feedback-textarea"></textarea>
+					<label class="mdl-textfield__label" for="feedback-textarea">What would you like to mention?</label>
+				</div>
+			</form>
+		</div>
+		<div class="mdl-card__actions mdl-card--border">
+			<button id="js-feedback-form__close" class="mdl-button mdl-js-button mdl-button--raised">
+				<i class="material-icons">close</i>
+			</button>
+			<span class="mdl-card--expand"></span>
+			<button id="js-feedback-form__send" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
+				<i class="material-icons">send</i>
+			</button>
+		</div>
+	</div>
+</div>

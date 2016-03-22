@@ -15,17 +15,23 @@ var dist = './dist';
 
 gulp.task('default', ['clean'], function(cb) {
 	runSequence(
+		['scripts'],
 		['styles', 'assets', 'pages'],
+		['prod-clean'],
 		cb);
 });
 
 gulp.task('clean', del.bind(null, [dist]));
 
+gulp.task('prod-clean', function(cb) {
+	del.sync([dist+'/**/*.map', '!'+dist]);
+});
+
 /*
 	Compiles and builds styles
  */
 gulp.task('styles', function() {
-	return gulp.src(['assets/styles/**/*.styl'])
+	return gulp.src(['assets/styles/**/*.styl', 'components/**/*.styl'])
 		.pipe($.plumber({errorHandler: handleErrors}))
 		.pipe($.sourcemaps.init())
 		.pipe($.stylus({
@@ -47,7 +53,7 @@ gulp.task('assets', function () {
 });
 
 /*
-	Generates an HTML file for each md file in pages directory.
+	Generates an HTML file for each md file in pages directory
  */
 gulp.task('pages', function () {
 	return gulp.src('content/*.md')
@@ -70,9 +76,21 @@ gulp.task('pages', function () {
 });
 
 /*
+	Combines component scripts
+ */
+gulp.task('scripts', function () {
+	return gulp.src('components/**/*.js')
+		.pipe($.plumber({errorHandler: handleErrors}))
+		.pipe($.sourcemaps.init())
+		.pipe($.concat('scripts.js'))
+		.pipe($.sourcemaps.write('.'))
+		.pipe(gulp.dest(dist+'/js'));
+});
+
+/*
 	Fires up a server for development
  */
-gulp.task('dev', ['default'], function() {
+gulp.task('dev', ['styles', 'assets', 'pages', 'scripts'], function() {
 	browserSync.init({
 		notify: false,
 		server: {
@@ -80,13 +98,17 @@ gulp.task('dev', ['default'], function() {
 		}
 	});
 
-	watch();
+	gulp.watch(['assets/styles/**/*.styl', 'components/**/*.styl'], ['styles', reload]);
+	gulp.watch(['components/**/*.js'], ['scripts', reload]);
+	gulp.watch(['templates/*.html', 'content/**/*.md', 'components/**/*.html'], ['pages', reload]);
+	gulp.watch(['assets/**/*.{png,jpg,svg,ico}'], ['assets', reload]);
 });
 
-gulp.task('deploy', ['default'], function() {
-	return gulp.src(dist+'/**/*.*')
-		.pipe($.ghPages());
-});
+// doesn't work in windows
+// gulp.task('deploy', ['default'], function() {
+// 	return gulp.src(dist+'/**/*.*')
+// 		.pipe($.ghPages());
+// });
 
 
 /*----------------------------------------------------------------------
@@ -94,7 +116,7 @@ gulp.task('deploy', ['default'], function() {
 */
 
 /**
- * Generates an HTML file based on a template and file metadata.
+ * Generates an HTML file based on a template and file metadata
  */
 function applyTemplate() {
 	return through.obj(function(file, enc, cb) {
@@ -110,15 +132,6 @@ function applyTemplate() {
 		this.push(file);
 		cb();
 	});
-}
-
-/**
- * Defines the list of resources to watch for changes.
- */
-function watch() {
-	gulp.watch(['assets/styles/**/*.styl'], ['styles', reload]);
-	gulp.watch(['templates/*.html', 'content/**/*.md'], ['pages', reload]);
-	gulp.watch(['assets/**/*.{png,jpg,svg,ico}'], ['assets', reload]);
 }
 
 /**

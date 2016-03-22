@@ -1,0 +1,21 @@
+(function() {
+	var obfus = document.getElementById('js-feedback-form');
+	var closeBtn = document.getElementById('js-feedback-form__close');
+	var openBtn = document.getElementById('feedback-form__open');
+	var sendBtn = document.getElementById('js-feedback-form__send');
+
+	closeBtn.addEventListener('click', function(evt) {
+		obfus.classList.remove('is-visible');
+	});
+
+	openBtn.addEventListener('click', function(evt) {
+		obfus.classList.add('is-visible');
+	});
+
+	sendBtn.addEventListener('click', function(evt) {
+		console.log('send');
+		var txt = document.forms.feedback;
+		console.log(txt);
+	});
+}());
+/*# sourceMappingURL=scripts.css.map */
