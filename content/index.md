@@ -71,7 +71,7 @@ title: learn
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 		<h5>How do I find a _baugruppe_?</h5>
-		That's what this site is for! The next phase of this site will have a directory of groups that are forming and looking for members.
+		You'll need to use German websites for that. However, for other community types there's already a great resource at the [cohousing directory](http://www.ic.org/directory/intentional-communities-by-country/). You can also find excellent resources for how to get started on the [NICA wiki](http://www.ic.org/wiki/nica/), in addition to [Cohousing.org]().
 	</div>
 	<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
 		<div class="section__circle-container__circle mdl-color--accent section__circle--big">

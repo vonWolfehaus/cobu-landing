@@ -51,30 +51,11 @@
 				</div> -->
 			</header>
 			<main class="mdl-layout__content">
-
 				{% block content %}{% endblock %}
 
 				<!-- {% include '../components/feedback-form/feedback-form.html' %} -->
 
-				<footer class="mdl-mini-footer">
-					<div class="mdl-mini-footer__left-section">
-						<div class="mdl-logo">Learn:</div>
-						<ul class="mdl-mini-footer__link-list">
-							<li><a href="/process">Process</a></li>
-							<li><a href="/building">Building</a></li>
-							<!-- <li><a href="/resources">Resrouces</a></li> -->
-						</ul>
-					</div>
-
-					<div class="mdl-mini-footer__right-section">
-						<!-- <div class="mdl-logo">{{ site.title }}</div>
-						<ul class="mdl-mini-footer__link-list">
-							<li><a href="about.html">About</a></li>
-							<li><a href="legal.html">Privacy & Terms</a></li>
-						</ul> -->
-						<img src="/favicon.png" style="width: 60px; height: auto;">
-					</div>
-				</footer>
+				{% include '../components/footer/footer.html' %}
 			</main>
 		</div>
 		<script>
@@ -86,6 +67,6 @@
 		ga('send', 'pageview');
 		</script>
 		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
-		<!-- <script src="js/scripts.js"></script> -->
+		<!-- <script src="js/scripts.js"></script> ADD THIS FOR FEEDBACK FORM -->
 	</body>
 </html>
