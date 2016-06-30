@@ -9,8 +9,8 @@ title: learn
 	</header>
 	<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
 		<div class="mdl-card__supporting-text">
-			<h4>What's a custom community?</h4>
-			<p>A custom community (better known as a [_baugruppe_](https://www.theurbanist.org/2014/05/08/ready-set-build-collectively/) – German for "building group") is collectively-funded, community-based living where a group of like-minded people come together to design, build, and inhabit a condo-like building within a city.</p>
+			<h4>What is collective building?</h4>
+			<p>Collective building is when a group of like-minded people come together to design, fund, build, and inhabit a multi-unit structure. Combined with a deep respect for privacy, no shared economy, and non-hierarchical governance, these intentional communities redefine our social context.</p>
 		</div>
 		<div class="mdl-card__actions">
 			<a href="process" class="mdl-button">Learn about the creation process</a>
@@ -40,7 +40,7 @@ title: learn
 			</div>
 			<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 				<h5>...live sustainably and be self-reliant?</h5>
-				<p>Many _baugruppen_ are built to <a href="http://en.wikipedia.org/wiki/Passivhaus">passivhaus</a> standards, with tons of insulation, natural light, and fresh air circulation. They can have solar panels, batteries, and smart appliances, all networked together by a smart whole-home energy management system. It could create more energy than it consumes and have the ability to island itself from the grid in the case of emergency.</p>
+				<p>Many communities are built to <a href="http://en.wikipedia.org/wiki/Passivhaus">passivhaus</a> standards, with tons of insulation, natural light, and fresh air circulation. They can have solar panels, batteries, and smart appliances, all networked together by a smart whole-home energy management system. It could create more energy than it consumes and have the ability to island itself from the grid in the case of emergency.</p>
 			</div>
 		</div>
 		<div class="mdl-card__actions">
