@@ -5,7 +5,7 @@
 }
 
 .mdl-card .mdl-card__supporting-text {
-	margin: 30px;
+	margin: 15px;
 	flex-grow: 1;
 	padding: 0;
 	color: inherit;
@@ -13,6 +13,10 @@
 
 	&:not(:first-child) {
 		margin-top: 0;
+	}
+
+	& p:last-child {
+		margin-bottom: 0;
 	}
 }
 
@@ -41,11 +45,15 @@
 a,
 .mdl-card__actions a {
 	color: rgb(33,150,243);
-	margin: 0;
+	text-decoration: none;
 
 	&:hover {
-		color: inherit;
+		text-decoration: underline;
 	}
+}
+
+a.mdl-button:hover {
+	text-decoration: none;
 }
 
 .mdl-card__actions a:hover,

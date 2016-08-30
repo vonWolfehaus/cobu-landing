@@ -17,6 +17,7 @@ gulp.task('default', ['clean'], function(cb) {
 	runSequence(
 		['scripts'],
 		['styles', 'assets', 'pages'],
+		['reorg'],
 		['prod-clean'],
 		cb);
 });
@@ -25,6 +26,16 @@ gulp.task('clean', del.bind(null, [dist]));
 
 gulp.task('prod-clean', function(cb) {
 	del.sync([dist+'/**/*.map', '!'+dist]);
+});
+
+/*
+	Upload the site
+ */
+gulp.task('deploy', function () {
+	return $.surge({
+		project: dist,
+		domain: 'collectivebuilding.org'
+	});
 });
 
 /*
@@ -73,6 +84,26 @@ gulp.task('pages', function () {
 				.pipe($.if((name === 'index'), gulp.dest(dist)))
 				.pipe($.if((name !== 'index'), gulp.dest(dist+'/'+name)));
 		}));
+});
+
+/*
+	Shift some things around to tidy up
+ */
+gulp.task('reorg', function(cb) {
+	runSequence(
+		['move-404'],
+		['del-mess'],
+		cb);
+});
+gulp.task('move-404', function () {
+	return gulp.src(dist+'/404/index.html')
+		.pipe($.rename('404.html'))
+		.pipe(gulp.dest(dist));
+});
+gulp.task('del-mess', function(cb) {
+	del.sync([dist+'/404/']);
+	del.sync([dist+'/legal/']);
+	del.sync([dist+'/community/']);
 });
 
 /*

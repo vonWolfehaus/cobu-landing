@@ -1,1 +1,1 @@
-Intro and directory for Baugruppen.
+Learn about Collective Building.

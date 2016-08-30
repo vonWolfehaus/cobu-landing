@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="description" content="A website for learning more about baugruppen (or: urban cohousing, intentional communities)">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ site.title }}</title>
+		<title>{{ site.title }}: {{ page.title }}</title>
 
 		<!-- Add to homescreen for Chrome on Android -->
 		<!-- <meta name="mobile-web-app-capable" content="yes"> -->
@@ -31,25 +31,22 @@
 		<link rel="stylesheet" href="/css/styles.css">
 	</head>
 	<body class="{{ page.title }}-page mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-			<header class="mdl-layout__header mdl-layout__header--scroll">
-				<div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
-				<div class="mdl-layout--large-screen-only mdl-layout__header-row">
+		<div class="mdl-layout">
+			<div class="cb-layout__header mdl-shadow--4dp">
+				<div class="cb-layout__header-row">
 					<h3>{{ site.title }}</h3>
 				</div>
-
-				<div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
-
-				<div class="mdl-layout--small-screen-only mdl-layout__header-row">
-					<h3>{{ site.title }}</h3>
+				<div class="cb-layout__tab-bar">
+					<a class="cb-layout__tab-item {% if page.title === 'learn' %}cb-layout__tab-item--active{% endif %}" href="/">Home</a>
+					<a class="cb-layout__tab-item {% if page.title === 'process' %}cb-layout__tab-item--active{% endif %}" href="/process">Process</a>
+					<a class="cb-layout__tab-item {% if page.title === 'building' %}cb-layout__tab-item--active{% endif %}" href="/buildings">Buildings</a>
+					<a class="cb-layout__tab-item {% if page.title === 'glossary' %}cb-layout__tab-item--active{% endif %}" href="/glossary">Glossary</a>
+					<a class="cb-layout__tab-item {% if page.title === 'about' %}cb-layout__tab-item--active{% endif %}" href="/about">About</a>
+					<!-- <a href="https://find.customcommunities.net" class="mdl-layout__tab">Find</a> -->
+					<!-- <a href="https://discuss.customcommunities.net" class="mdl-layout__tab">Discuss</a> -->
+					<!-- <a href="https://collaborate.customcommunities.net/login" class="mdl-layout__tab">Login</a> -->
 				</div>
-				<!-- <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-					<a href="/" class="mdl-layout__tab is-active">Learn</a>
-					<a href="https://find.customcommunities.net" class="mdl-layout__tab">Find</a>
-					<a href="https://discuss.customcommunities.net" class="mdl-layout__tab">Discuss</a>
-					<a href="https://collaborate.customcommunities.net/login" class="mdl-layout__tab">Login</a>
-				</div> -->
-			</header>
+			</div>
 			<main class="mdl-layout__content">
 				{% block content %}{% endblock %}
 
