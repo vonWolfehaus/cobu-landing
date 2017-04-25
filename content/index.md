@@ -72,7 +72,7 @@ title: learn
 	</div>
 	<div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
 		<h5>How do I find a community?</h5>
-		Coming later this year! Find and network with existing communities or form new ones with others like yourself. Until then, visit the [IC directory](http://www.ic.org/directory/intentional-communities-by-country/). You can also find excellent resources for how to get started on the [NICA wiki](http://www.ic.org/wiki/nica/), in addition to [Cohousing.org](http://cohousing.org).
+		You can visit the [IC directory](http://www.ic.org/directory/intentional-communities-by-country/) to search for a community near you. You can also find excellent resources for how to get started on the [NICA wiki](http://www.ic.org/wiki/nica/), in addition to [Cohousing.org](http://cohousing.org).
 	</div>
 	<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
 		<div class="section__circle-container__circle mdl-color--accent section__circle--big">
