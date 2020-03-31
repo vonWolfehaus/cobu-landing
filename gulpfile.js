@@ -34,7 +34,7 @@ gulp.task('prod-clean', function(cb) {
 gulp.task('deploy', function () {
 	return $.surge({
 		project: dist,
-		domain: 'collectivebuilding.org'
+		domain: 'collectivebuilding.info'
 	});
 });
 
