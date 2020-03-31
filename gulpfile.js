@@ -125,12 +125,6 @@ gulp.task('dev', ['styles', 'assets', 'pages', 'scripts'], function() {
 	gulp.watch(['assets/**/*.{png,jpg,svg,ico}'], ['assets', reload]);
 });
 
-// doesn't work in windows
-// gulp.task('deploy', ['default'], function() {
-// 	return gulp.src(dist+'/**/*.*')
-// 		.pipe($.ghPages());
-// });
-
 
 /*----------------------------------------------------------------------
 	HELPERS
