@@ -11,7 +11,7 @@ var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 
 var site = require('./site.json');
-var dist = './dist';
+var dist = './docs';
 
 gulp.task('default', ['clean'], function(cb) {
 	runSequence(
@@ -26,16 +26,6 @@ gulp.task('clean', del.bind(null, [dist]));
 
 gulp.task('prod-clean', function(cb) {
 	del.sync([dist+'/**/*.map', '!'+dist]);
-});
-
-/*
-	Upload the site
- */
-gulp.task('deploy', function () {
-	return $.surge({
-		project: dist,
-		domain: 'collectivebuilding.info'
-	});
 });
 
 /*
